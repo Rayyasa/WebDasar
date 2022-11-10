@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="login.php" method="POST">
+      <fieldset>
+        <legend>Login</legend>
+        <tr>
+          <td>Username</td>
+        <td><input type="text" name="username" placeholder="username..." /></td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td>:</td>
+        <td><input type="password" name="password" placeholder="password..." /></td>
+        </tr>
+        <p>
+          <label
+            ><input type="checkbox" name="remember" value="remember" /> Remember
+            me</label
+          >
+        </p>
+        <p>
+          <input type="submit" name="submit" value="Login" />
+        </p>
+      </fieldset>
+    </form>
+    <form action="contact.php" method="POST">
+      <fieldset>
+        <legend>Registrasi</legend>
+        <table>
+        <tr>
+          <td>Nama</td>
+          <td>:</td>
+          <td><input type="text" name="nama" placeholder="Nama lengkap..." /></td>
+        </tr>
+        <tr>
+          <td>Username</td>
+          <td>:</td>
+          <td><input type="text" name="username" placeholder="Username..." /></td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td>:</td>
+          <td><input type="email" name="email" placeholder="Your email..." /></td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td>:</td>
+          <td><input type="password" name="password" placeholder="Passowrd..." /></td>
+        </tr>
+        <tr>
+          <td>Jenis kelamin</td>
+          <td>:</td>
+          <td><label><input type="radio" name="jenis_kelamin" value="laki-laki" />Laki-laki</label>
+          <label><input type="radio" name="jenis_kelamin" value="perempuan" />Perempuan</label></td>
+        </tr>
+        <tr>
+          <td>Agama</td>
+          <td>:</td>
+          <td><select name="agama">
+            <option value="islam">Islam</option>
+            <option value="kristen">Kristen</option>
+            <option value="hindu">Hindu</option>
+            <option value="budha">Budha</option>
+          </select></td>
+        </tr>  
+        <tr>
+          <td>Biografi</td>
+          <td>:</td>
+          <td><textarea name="biografi"></textarea></td>
+        </tr>
+
+        <tr>
+          <td>Foto</td>
+          <td>:</td>
+          <td><input type="file" name="" id="" /></td>
+        </tr>
+        <tr>
+          <td>Umur</td>
+          <td>:</td>p
+          <td><input type="number" value="umur" placeholder="umur" /></td>
+        </tr>
+        <tr>
+          <td>Tanggal Lahir</td>
+          <td>:</td>
+          <td><input type="date" name="tanggal" id="" /></td>
+        </tr>p
+        <tr>
+          <td>Hobi</td>
+          <td>:</td>
+          <td><input type="checkbox" name="" id="" value="Futsal">Futsal
+          <input type="checkbox" name="" id="" value="Basket">Basket
+          <input type="checkbox" name="" id="" value="Badminton">Badminton</td>
+        </tr>
+        <tr>
+          <td><input type="submit" name="submit" value="Daftar" /></td>
+        </tr>
+      </fieldset>
+     </form>
+    </table>
+  </body>
+</html>
